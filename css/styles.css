@@ -398,7 +398,7 @@ body {
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
-  width: 412px;
+  
 }
 
 .possibilities {
@@ -420,14 +420,13 @@ body {
 
 .possibilities-list {
   display: flex;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 48px;
   flex-wrap: wrap;
 }
 
 .possibilities-layer {
   position: relative;
-  width: 360px;
+  width: 288px;
   overflow: hidden;
   padding-bottom: 0px;
   flex-direction: column;
@@ -1171,7 +1170,7 @@ body {
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
-  width: 412px;
+ 
 }
 
 .possibilities {
@@ -1194,13 +1193,13 @@ body {
 .possibilities-list {
   display: flex;
   column-gap: 24px;
-  row-gap: 48px;
+  row-gap: 72px;
   flex-wrap: wrap;
 }
 
 .possibilities-layer {
   position: relative;
-  width: 360px;
+  width: 356px;
   overflow: hidden;
   padding-bottom: 0px;
   flex-direction: column;
@@ -1618,6 +1617,9 @@ body {
 /* ===============================DESKTOP=============================== */
 
 @media screen and (min-width: 1158px) {
+
+
+  
   .benefits-list {
     font-size: 20px;
     font-weight: 500;
@@ -1630,15 +1632,32 @@ body {
     font-weight: 400;
    
   }
-  
- 
-  
-  .benefits-form-list {
+
+.benefits-form-list {
     width: 264px;
   }
+
+
+
+  /* ========================OUR TEAM============================= */
+
+  
+
+ /* ===================PORTFOLIO============================== */
   
   
+
+  .possibilities-list {
+    column-gap: 24px;
+    row-gap: 48px;
+    
+  }
   
+  .possibilities-layer {
+    width: 360px;
+    
+  }
+/* ===================PORTFOLIO============================== */
 
 }
 
