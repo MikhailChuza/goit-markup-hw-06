@@ -268,9 +268,10 @@ body {
 /* ================ BENEFITS ========================== */
 
 .benefits-list {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; 
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
   margin-bottom: 8px;
@@ -278,7 +279,7 @@ body {
 
 .benefits-text {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
@@ -286,29 +287,13 @@ body {
 
 .benefits-form {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  gap: 72px;
 }
 
-.benefits-form-list {
-  width: calc((100% - 72px) / 4);
-}
 
-.sprite-benefits {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-  background: var(--CLOUD, #f4f4fd);
-}
 
-.logo-icon {
-  margin: 24px 100px;
-}
+
 
 /* ================ BENEFITS ========================== */
 
@@ -1616,6 +1601,13 @@ body {
 
 /* ==============================TABLET================================ */
 
+
+
+@media screen and (max-width: 1157px) {
+  .sprite-benefits {
+    display: none;
+  }
+}
 
 /* ===============================DESKTOP=============================== */
 
