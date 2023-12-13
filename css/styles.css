@@ -87,8 +87,24 @@ button {
 
 /* ==============================MOBILE============================== */
 
+
+
 @media screen and (max-width: 767px)  {
   
+  .adress-text {
+  display: none;
+}
+.menu-item {
+  display: none;
+}
+
+.page-header{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+
+
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -141,6 +157,13 @@ body {
   margin-right: 76px;
   position: relative;
   color: #404bbf;
+}
+
+.mobile-menu-open-btn {
+  background-color: transparent;
+  border: none;
+  fill: #2F2F37;
+  line-height: 0;
 }
 
 /* ============== Navigation+ Mail============= */
@@ -847,6 +870,13 @@ body {
 @media screen and (min-width: 768px) {
  
   /* ==========================HEADER STYLES============================== */
+
+  .mobile-menu-open-btn {
+    display: none;
+  }
+
+
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
