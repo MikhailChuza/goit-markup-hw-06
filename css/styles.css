@@ -226,6 +226,13 @@ body {
   color: #404bbf;
 }
 
+
+
+
+/* ============== Navigation+ Mail============= */
+
+
+/* ======================MOBILE MENU ==================== */
 .mobile-menu-wrapper {
   position: fixed;
   top: 0;
@@ -237,9 +244,19 @@ body {
 }
 
 
+.mobile-menu-close-button {
+  position: absolute;
+  top: 24px;
+  right: 8px;
+  background-color: transparent;
+  border: none;
+  fill: #2E2F42;
+  line-height: 0px;
+}
+
+/* ======================MOBILE MENU ==================== */
 
 
-/* ============== Navigation+ Mail============= */
 
 /* ============== MAIN ======================== */
 
