@@ -732,6 +732,7 @@ button {
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: none;
     border-radius: 4px;
     background-color: #4d5ae5;
@@ -746,6 +747,7 @@ button {
   }
   .send-icon {
     fill: var(--WHITE, #fff);
+    margin-left: 16px;
   }
   /* =================SUBSCRIBE FORM======================*/
 
