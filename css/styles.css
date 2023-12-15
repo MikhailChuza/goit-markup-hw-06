@@ -1415,6 +1415,7 @@ button {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
+    text-decoration: none;
     line-height: 1.16; /* 116.667% */
     letter-spacing: 0.03em;
     color: #f4f4fd;
