@@ -616,7 +616,7 @@ button {
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-
+    text-decoration: none;
     margin-bottom: 16px;
   }
   .logo-white {
