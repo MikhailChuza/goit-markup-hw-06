@@ -332,8 +332,8 @@ button {
     flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     background-color: #2e2f42;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -611,7 +611,7 @@ button {
     margin-right: auto;
     margin-left: auto;
     background: #2e2f42;
-    padding: 100px 0;
+    padding: 96px 0;
   }
 
   .inline {
@@ -1082,7 +1082,7 @@ button {
     color: #404bbf;
   }
 
-  .stripe:hover::after {
+  .stripe::after {
     content: "";
     position: absolute;
     display: block;
@@ -1093,7 +1093,9 @@ button {
     left: 0;
     bottom: -1px;
   }
-
+  .stripe {
+    color: #404bbf;
+  }
   .adress-text {
     font-style: normal;
   }
@@ -1122,7 +1124,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     padding-top: 112px;
-    padding-bottom: 204px;
+    padding-bottom: 112px;
     background-color: #2e2f42;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1423,7 +1425,7 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 72px 24px;
     margin-left: 108px;
   }
   .logo-blue {
@@ -1434,6 +1436,7 @@ button {
     font-weight: 700;
     line-height: 1.16; /* 116.667% */
     letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
   .logo-white {
     font-family: Raleway;
@@ -1493,7 +1496,6 @@ button {
     fill: #f4f4fd;
   }
   .footer-left {
-    margin-bottom: 72px;
     text-align: start;
   }
 
